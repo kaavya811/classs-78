@@ -1,0 +1,20 @@
+var reasons=[
+    "this my mother or you say mom ",
+    "this is my grandfather",
+    "this my grandmother",
+    "trees give us firuts to live ",
+    "and for the last my full happy family together"
+    ];
+    var images=[
+    "https://in.images.search.yahoo.com/images/view;_ylt=AwrwJSGYCxxgeUQAy0G9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2NhOGEzNjdlN2FjY2NkYmI3NGE4NGMwMzMxOWE3MzJlBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dpiture%2Bor%2Bdad%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=844&h=1185&imgurl=cdn.shopify.com%2Fs%2Ffiles%2F1%2F2068%2F3659%2Ffiles%2FFatherTimeBread_FelixBust.png%3Fv%3D1510449596&rurl=https%3A%2F%2Ffathertimebread.com%2Fpages%2Fthe-legend-of-father-time&size=162.7KB&p=picture+or+dad&oid=ca8a367e7acccdbb74a84c03319a732e&fr2=piv-web&fr=mcafee&rw=picture+or+dad&tt=The+Legend+of+Father+Time+-+Father+Time+Bread&b=0&ni=21&no=1&ts=&tab=organic&sigr=CqiKLCuOLObo&sigb=qQbvJ8lEXIfO&sigi=2jRsHRM4ymFQ&sigt=u073AWYRBNgS&.crumb=1ByXvsG83X1&fr=mcafee&fr2=piv-web",
+    "https://in.images.search.yahoo.com/images/view;_ylt=AwrwJU3YCxxgY3cAVJO9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2FlYzA5Zjc2ZDJjMTEyZGI2ZjBjYzRkMTY1ZjkyMDc4BGdwb3MDMjkEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dpiture%2Bof%2Bmother%26n%3D60%26ei%3DUTF-8%26fr%3Dmcafee%26fr2%3Dsb-top-in.images.search%26tab%3Dorganic%26ri%3D29&w=999&h=1029&imgurl=fabwags.com%2Fwp-content%2Fuploads%2F2018%2F11%2FKyler-Murray-mother-Missy-Murray-picture.jpg&rurl=https%3A%2F%2Ffabwags.com%2Fkyler-murrays-mother-missy-murray%2F&size=232.6KB&p=picture+of+mother&oid=aec09f76d2c112db6f0cc4d165f92078&fr2=sb-top-in.images.search&fr=mcafee&rw=picture+of+mother&tt=Kyler+Murray%26%2339%3Bs+Mother+Missy+Murray+%28Bio%2C+Wiki%29&b=0&ni=64&no=29&ts=&tab=organic&sigr=NSefNVz7H_03&sigb=833OFNc5geUI&sigi=cqkJAm4volLb&sigt=xsudqmMab300&.crumb=1ByXvsG83X1&fr=mcafee&fr2=sb-top-in.images.search",
+    "https://in.images.search.yahoo.com/images/view;_ylt=AwrwJQ0FDBxgxk0A2pO9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2QzZWM0ZWIwZjA5ODdhMzc1YTE2MzMwNmI3NGQwNjI3BGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dpiture%2Bof%2Bgrangemother%26n%3D60%26ei%3DUTF-8%26fr%3Dmcafee%26fr2%3Dsb-top-in.images.search%26tab%3Dorganic%26ri%3D2&w=612&h=408&imgurl=media.istockphoto.com%2Fphotos%2Fgrandmother-picture-id664186346%3Fk%3D6%26m%3D664186346%26s%3D612x612%26w%3D0%26h%3DX4OXbxLNqCm1tVZjcNWZFRfiSZs15KyJooHitP6ofeg%3D&rurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Felegant-grandmother&size=28.8KB&p=picture+of+grandmother&oid=d3ec4eb0f0987a375a163306b74d0627&fr2=sb-top-in.images.search&fr=mcafee&rw=picture+of+grandmother&tt=Top+60+Elegant+Grandmother+Stock+Photos%2C+Pictures%2C+and+Images+-+iStock&b=0&ni=64&no=2&ts=&tab=organic&sigr=z85ZKwr0GSL7&sigb=vEefADGuqlKE&sigi=Zv_mN6pL_8TO&sigt=hLhtQklTpinu&.crumb=1ByXvsG83X1&fr=mcafee&fr2=sb-top-in.images.search",
+    "https://in.images.search.yahoo.com/images/view;_ylt=AwrwJTQ5DBxgBTgAAW.9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzkzOTNlMzkwMzA2MDhhNDk5YzA5NmJjMjU1NmNlZGFmBGdwb3MDMjQEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dpiture%2Bof%2Bgrangefather%26n%3D60%26ei%3DUTF-8%26fr%3Dmcafee%26fr2%3Dsb-top-in.images.search%26tab%3Dorganic%26ri%3D24&w=3491&h=2270&imgurl=www.ncoa.org%2Fwp-content%2Fuploads%2FGrandfather-grandson.jpg&rurl=https%3A%2F%2Fwww.ncoa.org%2Fgrandfather-grandson%2F&size=3244.1KB&p=picture+of+grandfather&oid=9393e39030608a499c096bc2556cedaf&fr2=sb-top-in.images.search&fr=mcafee&rw=picture+of+grandfather&tt=Grandfather+%26+grandson+%7C+NCOA&b=0&ni=64&no=24&ts=&tab=organic&sigr=EdP1AKEk0Ci3&sigb=tcN9j.dBy42x&sigi=HLOn9tGJ6bWB&sigt=EowzUP_lgWsu&.crumb=1ByXvsG83X1&fr=mcafee&fr2=sb-top-in.images.search",
+    "https://tse3.mm.bing.net/th?id=OIP.fWL9xV07xaW-MAPrcIM97gHaE8&pid=Api&P=0&w=228&h=153"
+    ];
+    var i=0;
+    function nextslide(){
+    document.getElementById("reason_text").innerHTML=reasons[i];
+    document.getElementById("album").src=images[i];
+    i++;
+    }
